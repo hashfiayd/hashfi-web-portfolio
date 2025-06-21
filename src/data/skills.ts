@@ -1,0 +1,22 @@
+// Ganti dengan skill dan teknologi yang Anda kuasai.
+export const skillsData = [
+  "Kotlin",
+  "Java",
+  "Android SDK",
+  "Jetpack Compose",
+  "XML Layouts",
+  "MVVM",
+  "Coroutines",
+  "Dagger Hilt",
+  "Retrofit",
+  "Room",
+  "Git",
+  "GitHub",
+  "TypeScript",
+  "JavaScript",
+  "Next.js",
+  "React",
+  "Node.js",
+  "Tailwind CSS",
+  "PostgreSQL",
+];
