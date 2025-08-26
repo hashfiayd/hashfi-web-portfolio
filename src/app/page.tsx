@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 import HeroSection from "@/components/sections/HeroSection"; 
 import Loading from "@/components/ui/Loading";
 import AboutSection from "@/components/sections/AboutSection";
-import ProjectsSection from "@/components/sections/Projects"; // Menggunakan Projects.tsx yang sudah ada
+import ProjectsSection from "@/components/sections/ProjectsSection";
 import TechnologiesSection from "@/components/sections/TechnologiesSection";
 import ContactSection from "@/components/sections/ContactSection";
 import FooterSection from "@/components/sections/FooterSection";
