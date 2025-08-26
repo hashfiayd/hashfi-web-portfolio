@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, Download } from "lucide-react";
 import { StarsBackground } from "../ui/StarsBackground";
-import { useLenis } from "@studio-freight/react-lenis";
+import { useLenis } from "lenis/react";
 import { cubicBezier } from "framer-motion";
 
 export default function Hero() {

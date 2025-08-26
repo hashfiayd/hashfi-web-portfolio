@@ -3,7 +3,7 @@ import { Wix_Madefor_Display } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
 import Loading from "@/components/ui/Loading"; // Asumsi path ini benar
-import SmoothScrolling from "@/components/ui/SmoothScrolling"; // Asumsi path ini benar
+import { ReactLenis } from "lenis/react";
 
 const wixMadeForDisplay = Wix_Madefor_Display({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         <html lang="id" className="dark">
             <body className={wixMadeForDisplay.className}>
                 <Suspense fallback={<Loading />}>
-                    <SmoothScrolling>{children}</SmoothScrolling>
+                    <ReactLenis root>{children}</ReactLenis>
                 </Suspense>
             </body>
         </html>
