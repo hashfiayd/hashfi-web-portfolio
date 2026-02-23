@@ -44,14 +44,14 @@ export default function AboutSection() {
                 <div className="lg:w-2/3 order-2 lg:order-1">
                     <div ref={textRef} className="md:text-lg font-medium text-foreground/80">
                         <p>
-                            {"Setelah lulus dengan gelar di bidang Teknik Informatika, saya memutuskan untuk mengejar passion saya di bidang pemrograman. Saya mendalami pengembangan aplikasi Android dan web full-stack. Bagian favorit saya dari pemrograman adalah aspek pemecahan masalah. Saya suka perasaan ketika akhirnya menemukan solusi untuk sebuah masalah yang kompleks.".split(" ").map((word, index) => (
+                            {"Tertarik dengan perkembangan teknologi informasi, saya memutuskan untuk mengejar passion saya di bidang pemrograman dengan menjadi mahasiswa teknik informatika di Universitas Riau. Saya mendalami pengembangan aplikasi Android dan web full-stack. Bagian favorit saya dari pemrograman adalah aspek pemecahan masalah. Saya suka perasaan ketika akhirnya menemukan solusi untuk sebuah masalah yang kompleks. Saya juga menyukai ketika bisa mencoba inovasi inovasi baru yang bisa saya terapkan.".split(" ").map((word, index) => (
                                 <span key={index} className="word inline-block opacity-20">
                                     {word}&nbsp;
                                 </span>
                             ))}
                         </p>
                         <p className="mt-4">
-                            {"Di luar coding, saya suka bermain game, menonton film, dan bermain badminton. Saya juga senang mempelajari hal-hal baru. Saat ini, saya sedang mendalami Go (Golang) dan instrumentasi musik.".split(" ").map((word, index) => (
+                            {"Di luar coding, saya suka bermain game, menonton film, dan bermain badminton. Saya juga senang mempelajari hal-hal baru. Saat ini, saya sedang mendalami flutter dan instrumentasi musik.".split(" ").map((word, index) => (
                                 <span key={index} className="word inline-block opacity-20">
                                     {word}&nbsp;
                                 </span>
